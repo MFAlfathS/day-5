@@ -1,0 +1,24 @@
+*{
+    width: 350px;
+    margin: auto;
+    padding: 20px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 10px;
+}
+
+button{
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    margin-right: -35px;
+}
+h1{
+    text-align: center;
+}
+textarea{
+    resize: none;
+}

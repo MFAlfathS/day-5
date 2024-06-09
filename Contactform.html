@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <title>Personal Web</title>
+        <link href="./Asset/css/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <nav>
+            <div class="nav-left">
+            <ul>
+                <img src="./Asset/dumbways_id_logo.png" width="50px">
+                <li>
+                    <a href="./index.html">Home</a>
+                </li>
+                <li>
+                    <a href="./MyProject.html">My Project</a>
+                </li>
+            </ul>
+            </div>
+            
+            <div class="nav-right">
+                <a href="./Contactform.html">Contact Me</a>
+            </div>
+        </nav>
+        <form>
+            <div>
+            <label for="name">Name</label>
+            <input type="text" id="name" required placeholder="Nama">
+            </div>
+
+            <div>
+            <label for="name">Email</label>
+            <input type="email" id="email" required placeholder="Email">
+            </div>
+
+            <div>
+            <label for="tel">Phone</label>
+            <input type="tel" id="phone" required placeholder="phone">
+            </div>
+            
+            <div>
+                <label for="subject">Subject</label>
+            <select name="subject" id="subject">
+                <option value="">Select</option>
+                <option Value="frontend">Frontend developer</option>
+                <option value="backend">Backend developer</option>
+                <option value="fullstack">Fullstack developer</option>
+            </select>
+            </div>
+            <div>
+                <label for="message">Message</label>
+                <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                </div>
+                <div>
+                    <button type="button" onclick="submitHandler()">Submit</button>
+                </div>
+            </body>
+        </form>
+
+        <script src="./Asset/js/contact.js" rel="stylesheet"></script>
+
+</html>
